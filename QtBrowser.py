@@ -10,9 +10,9 @@ from PyQt5.QtWebKitWidgets import *
 app = QApplication(sys.argv)
 
 web = QWebView()
-web.load(QUrl("http://bakkal.linuxdiyari.com"))
+web.load(QUrl("http://linuxdiyari.com"))
 web.show()
-web.setWindowTitle('Pisi Linux: BAKKAL')
+web.setWindowTitle('PyQt Browser')
 web.setWindowIcon(QIcon('icon.png')) 
  
 
